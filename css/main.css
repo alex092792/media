@@ -1,0 +1,32 @@
+body {
+	text-align:center; 
+}
+.box {
+	display:inline-block;
+	height: 200px;
+	width: 45%;
+}
+.red {
+	background-color: red;
+}
+.blue {
+	background-color:blue;
+}
+.green {
+	background-color:green;
+}
+.yellow {
+	background-color:yellow;
+}
+/*this is media queries*/
+@media (max-width: 700px) {
+	.blue, .green {
+		display:none;
+	}
+	
+}
+@media (min-height: 1000px) {
+	.box {
+		width:100%;
+	}
+}
